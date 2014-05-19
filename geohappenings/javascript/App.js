@@ -22,7 +22,8 @@ initialize: function() {
 				$this.messages.push(item2) });
 		});
 		$this.displayChatMessages() & $this.activateClickListener() & $this.initTypeahead();
-	});},
+	});
+	},
 events: {
 	'keyup #message-input': 'toggleShare',	'keyup #name-input': 'toggleShare',
 	'click .share-message': 'saveMsg',	'click #add-event-btn': 'enableEventClickHandler'
